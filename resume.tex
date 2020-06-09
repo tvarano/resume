@@ -3,36 +3,62 @@
 
 \begin{document}
 \myHeader{Thomas Varano}{Computer Science Student}
-
-% \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}} % horiz line
 \bighsep[1pt]
 
-% row one
-\begin{multicols}{3}
-    \section*{Contact}
-    \begin{flushright}
-    this should work with right justification though right??
-    \end{flushright}
-    \columnbreak
+% top row
 
-    \section*{Education}
-    \begin{itemize} \itemsep -0pt
-        \item ok looking good this should work
-    \end{itemize}
-    \columnbreak
-
-    \section*{Skills} 
-    \begin{multicols}{2}
-        \begin{itemize} \itemsep -0pt
-            \item left list
-        \end{itemize} \itemsep -0pt
-
-        \begin{itemize}
-            \item right list
-        \end{itemize}
-    \end{multicols}
-\end{multicols}
+\begin{tabular}[t]{r | l | l}
+    \parbox[t][][t]{0.2\textwidth}{
+        % contact
+        \setlength\topsep{0pt}
+        \sechead{Contact}
+        \begin{flushright}
+            \contactItem{thvarano@gmail.com}{mail}
+            \contactItem{www.tomvarano.com}{link}
+            \contactItem{(201) 887-3953}{phone}
+            \contactItem{/in/thomas-varano}{linkedin}
+            \contactItem{github.com/tvarano}{github}
+        \end{flushright}
+    }
+    &
+    \parbox[t][][t]{0.3\textwidth}{
+        % education
+        \setlength\topsep{1pt}
+        \sechead{Education}
+        \vspace{1mm}
+        {\fontsize{9}{12}\robotocondlight
+        University of Maryland – College Park\par
+        Bachelor’s in Computer Science\par
+        Minor in Mathematics\par
+        Graduation: May 2023\par
+        GPA: 3.95 \hspace{18mm} ACT:34\par
+        SAT Math II: 800 \hspace{10mm} SAT Physics: 740
+        }
+    }
+    &
+    \parbox[t][][t]{0.48\textwidth}{
+        % skills
+        \setlength\topsep{0pt}
+        \sechead{Skills}
+        {\fontsize{9}{12}\robotocondlight
+        \begin{tabular}[t]{r l}
+            Java & C\\
+            JavaScript & Assembly (MIPS)\\
+            Python & BASH / tcsh\\
+            Git & \LaTeX\\
+            HTML / CSS & Windows / MacOS / Linux
+        \end{tabular}
+        }
+    }
+\end{tabular}
 
 \hsep[1pt]
+% Relevant Coursework
+\sechead{Relevant Coursework}
+{\fontsize{9}{12}\robotocondlight
+\begin{tabularx}{\textwidth}{l l l}
+    \tabitem CMSC132: OOP II & try & ok 
+\end{tabularx}
+}
 
 \end{document}

@@ -1,27 +1,28 @@
 % packages
 \usepackage{graphicx}
-\usepackage{fontspec}
-\usepackage{tabularx}
-\usepackage{multicol}
+\graphicspath{ {img/} }
 
+\usepackage{fontspec}
+\usepackage{vwcol}  
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{booktabs}
 \usepackage[paper=a4paper,left=10mm,right=10mm,top=20mm,bottom=0mm]{geometry}
 
 \pagestyle{empty}
 
 % fonts
-% \newfontfamily{\worksans}{[]}
-
 \newfontfamily{\robotolight}{[Roboto-Light.ttf]}
 \newfontfamily{\robotocondlight}{[RobotoCondensed-Light.ttf]}
 \newfontfamily{\robotocond}{[RobotoCondensed-Regular.ttf]}
 \newfontfamily{\worksanslight}{[WorkSans-Light.ttf]}
 \newfontfamily{\worksans}{[WorkSans-Regular.ttf]}
 
-
+% section headers
 \usepackage{sectsty}
 \sectionfont{\fontsize{13}{15}\worksans}
-
-
+\titlespacing{\section}{0pt}{*0}{*0}
 
 \newcommand{\myHeader}[2]{
     \noindent
@@ -36,7 +37,11 @@
 }
 
 \newcommand{\contactItem}[2]{
-    \item[] #1
+    {\fontsize{8}{10}\robotocondlight #1} \includegraphics[width=3mm,scale=0.5]{#2} \par
+}
+
+\newcommand{\courseentry}[1]{
+    \tabitem #1
 }
 
 \newcommand{\hsep}[1][\medskipamount]{\par
@@ -54,3 +59,5 @@
     \vspace*{\dimexpr-\parskip-.5\baselineskip+#1}
     \end{center}
 }
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
