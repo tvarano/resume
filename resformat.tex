@@ -1,0 +1,56 @@
+% packages
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{multicol}
+
+\usepackage[paper=a4paper,left=10mm,right=10mm,top=20mm,bottom=0mm]{geometry}
+
+\pagestyle{empty}
+
+% fonts
+% \newfontfamily{\worksans}{[]}
+
+\newfontfamily{\robotolight}{[Roboto-Light.ttf]}
+\newfontfamily{\robotocondlight}{[RobotoCondensed-Light.ttf]}
+\newfontfamily{\robotocond}{[RobotoCondensed-Regular.ttf]}
+\newfontfamily{\worksanslight}{[WorkSans-Light.ttf]}
+\newfontfamily{\worksans}{[WorkSans-Regular.ttf]}
+
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{13}{15}\worksans}
+
+
+
+\newcommand{\myHeader}[2]{
+    \noindent
+    {\fontsize{45}{52}\worksanslight #1} \hfill \par
+    \vspace{5mm}
+    \hspace{15mm}{\fontsize{22}{24}\robotolight #2} \hfill \par
+}
+
+\newcommand{\sechead}[1]{
+    \noindent
+    {\fontsize{13}{15}\worksans #1} \hfill \par
+}
+
+\newcommand{\contactItem}[2]{
+    \item[] #1
+}
+
+\newcommand{\hsep}[1][\medskipamount]{\par
+    \begin{center}
+    \vspace*{\dimexpr-\parskip-\baselineskip+#1}
+    \noindent\rule{190mm}{0.4pt}\par
+    \vspace*{\dimexpr-\parskip-.5\baselineskip+#1}
+    \end{center}
+}
+
+\newcommand{\bighsep}[1][\medskipamount]{\par
+    \begin{center}
+    \vspace*{\dimexpr-\parskip-\baselineskip+#1}
+    \noindent\rule{190mm}{3pt}\par
+    \vspace*{\dimexpr-\parskip-.5\baselineskip+#1}
+    \end{center}
+}

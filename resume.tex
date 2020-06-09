@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+\input{resformat.tex}
+
+\begin{document}
+\myHeader{Thomas Varano}{Computer Science Student}
+
+% \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}} % horiz line
+\bighsep[1pt]
+
+% row one
+\begin{multicols}{3}
+    \section*{Contact}
+    \begin{flushright}
+    this should work with right justification though right??
+    \end{flushright}
+    \columnbreak
+
+    \section*{Education}
+    \begin{itemize} \itemsep -0pt
+        \item ok looking good this should work
+    \end{itemize}
+    \columnbreak
+
+    \section*{Skills} 
+    \begin{multicols}{2}
+        \begin{itemize} \itemsep -0pt
+            \item left list
+        \end{itemize} \itemsep -0pt
+
+        \begin{itemize}
+            \item right list
+        \end{itemize}
+    \end{multicols}
+\end{multicols}
+
+\hsep[1pt]
+
+\end{document}
