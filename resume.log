@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.8)  9 JUN 2020 17:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.8)  9 JUN 2020 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,21 +418,70 @@ LaTeX Info: Redefining \- on input line 4015.
 . Defining command \liningnums with sig. 'm' on line 4114.
 .................................................
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count179
+\mult@box=\box42
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count180
+\c@collectmore=\count181
+\doublecol@number=\count182
+\multicoltolerance=\count183
+\multicolpretolerance=\count184
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box43
+\last@line=\box44
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box45
+\mult@grightbox=\box46
+\mult@gfirstbox=\box47
+\mult@firstbox=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\c@columnbadness=\count185
+\c@finalcolumnbadness=\count186
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box66
+\colbreak@box=\box67
+\mc@col@check@num=\count187
+)
 (/usr/share/texlive/texmf-dist/tex/latex/vwcol/vwcol.sty
 Package: vwcol 2015/02/10 v0.2 Variable-width multicolumn text
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count179
-\calc@Bcount=\count180
-\calc@Adimen=\dimen139
-\calc@Bdimen=\dimen140
-\calc@Askip=\skip49
-\calc@Bskip=\skip50
+\calc@Acount=\count188
+\calc@Bcount=\count189
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count181
-\calc@Cskip=\skip51
+\calc@Ccount=\count190
+\calc@Cskip=\skip53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -456,82 +505,33 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip52
-\RaggedLeftLeftskip=\skip53
-\RaggedRightLeftskip=\skip54
-\CenteringRightskip=\skip55
-\RaggedLeftRightskip=\skip56
-\RaggedRightRightskip=\skip57
-\CenteringParfillskip=\skip58
-\RaggedLeftParfillskip=\skip59
-\RaggedRightParfillskip=\skip60
-\JustifyingParfillskip=\skip61
-\CenteringParindent=\skip62
-\RaggedLeftParindent=\skip63
-\RaggedRightParindent=\skip64
-\JustifyingParindent=\skip65
+\CenteringLeftskip=\skip54
+\RaggedLeftLeftskip=\skip55
+\RaggedRightLeftskip=\skip56
+\CenteringRightskip=\skip57
+\RaggedLeftRightskip=\skip58
+\RaggedRightRightskip=\skip59
+\CenteringParfillskip=\skip60
+\RaggedLeftParfillskip=\skip61
+\RaggedRightParfillskip=\skip62
+\JustifyingParfillskip=\skip63
+\CenteringParindent=\skip64
+\RaggedLeftParindent=\skip65
+\RaggedRightParindent=\skip66
+\JustifyingParindent=\skip67
 )
-\vwcol@sep=\skip66
-\vwcol@rule=\skip67
-\vwcol@totalwidth=\skip68
-\vwcol@averagewidth=\skip69
-\vwcol@parindent=\skip70
-\vwcol@last=\count182
-\vwcol@Ncols=\count183
-\vwcol@Nlines=\count184
-\vwcol@maxrecursion=\count185
-\vwcol@box=\box42
-\vwcol@plainbox=\box43
-\vwcol@outputbox=\box44
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count186
-\mult@box=\box45
-\multicol@leftmargin=\dimen141
-\c@unbalance=\count187
-\c@collectmore=\count188
-\doublecol@number=\count189
-\multicoltolerance=\count190
-\multicolpretolerance=\count191
-\full@width=\dimen142
-\page@free=\dimen143
-\premulticols=\dimen144
-\postmulticols=\dimen145
-\multicolsep=\skip71
-\multicolbaselineskip=\skip72
-\partial@page=\box46
-\last@line=\box47
-\maxbalancingoverflow=\dimen146
-\mult@rightbox=\box48
-\mult@grightbox=\box49
-\mult@gfirstbox=\box50
-\mult@firstbox=\box51
-\@tempa=\box52
-\@tempa=\box53
-\@tempa=\box54
-\@tempa=\box55
-\@tempa=\box56
-\@tempa=\box57
-\@tempa=\box58
-\@tempa=\box59
-\@tempa=\box60
-\@tempa=\box61
-\@tempa=\box62
-\@tempa=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\c@columnbadness=\count192
-\c@finalcolumnbadness=\count193
-\last@try=\dimen147
-\multicolovershoot=\dimen148
-\multicolundershoot=\dimen149
-\mult@nat@firstbox=\box69
-\colbreak@box=\box70
-\mc@col@check@num=\count194
+\vwcol@sep=\skip68
+\vwcol@rule=\skip69
+\vwcol@totalwidth=\skip70
+\vwcol@averagewidth=\skip71
+\vwcol@parindent=\skip72
+\vwcol@last=\count191
+\vwcol@Ncols=\count192
+\vwcol@Nlines=\count193
+\vwcol@maxrecursion=\count194
+\vwcol@box=\box68
+\vwcol@plainbox=\box69
+\vwcol@outputbox=\box70
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
@@ -584,6 +584,21 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count199
 \@thisrulewidth=\dimen174
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip77
+\multirow@cntb=\count266
+\multirow@dima=\skip78
+\bigstrutjot=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip79
+\enit@outerparindent=\dimen176
+\enit@toks=\toks19
+\enit@inbox=\box72
+\enitdp@description=\count267
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -597,20 +612,20 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
-\Gm@bindingoffset=\dimen175
-\Gm@wd@mp=\dimen176
-\Gm@odd@mp=\dimen177
-\Gm@even@mp=\dimen178
-\Gm@layoutwidth=\dimen179
-\Gm@layoutheight=\dimen180
-\Gm@layouthoffset=\dimen181
-\Gm@layoutvoffset=\dimen182
-\Gm@dimlist=\toks19
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks20
 )
-\g__fontspec_family_[Roboto-Light.ttf]_int=\count269
+\g__fontspec_family_[Roboto-Light.ttf]_int=\count271
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -636,7 +651,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"[Roboto-Light]/BI.ttf/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-\g__fontspec_family_[RobotoCondensed-Light.ttf]_int=\count270
+\g__fontspec_family_[RobotoCondensed-Light.ttf]_int=\count272
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -662,7 +677,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"[RobotoCondensed-Light]/BI.ttf/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-\g__fontspec_family_[RobotoCondensed-Regular.ttf]_int=\count271
+\g__fontspec_family_[RobotoCondensed-Regular.ttf]_int=\count273
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -688,7 +703,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"[RobotoCondensed-Regular]/BI.ttf/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-\g__fontspec_family_[WorkSans-Light.ttf]_int=\count272
+\g__fontspec_family_[WorkSans-Light.ttf]_int=\count274
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -714,7 +729,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"[WorkSans-Light]/BI.ttf/OT:script=latn;language=DFLT;+smcp;"
 .................................................
-\g__fontspec_family_[WorkSans-Regular.ttf]_int=\count273
+\g__fontspec_family_[WorkSans-Regular.ttf]_int=\count275
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -874,26 +889,16 @@ File: img/linkedin.png Graphic file (type bmp)
 File: img/github.png Graphic file (type bmp)
 <img/github.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 52.
+(Font)              <9> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 53.
 
-Overfull \hbox (42.98566pt too wide) in paragraph at lines 10--54
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 61--61
-[][][] 
- []
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 61--63
+Overfull \hbox (42.98566pt too wide) in paragraph at lines 10--56
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 62--72
 
  []
 
@@ -901,12 +906,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
 ] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 12372 strings out of 494988
- 273922 string characters out of 6178639
- 346596 words of memory out of 5000000
- 16081 multiletter control sequences out of 15000+600000
- 534227 words of font info for 72 fonts, out of 8000000 for 9000
+ 12718 strings out of 494988
+ 279970 string characters out of 6178639
+ 360443 words of memory out of 5000000
+ 16415 multiletter control sequences out of 15000+600000
+ 534259 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,17n,66p,10429b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,17n,66p,10432b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).

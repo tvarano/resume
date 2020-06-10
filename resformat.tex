@@ -3,27 +3,37 @@
 \graphicspath{ {img/} }
 
 \usepackage{fontspec}
-\usepackage{vwcol}  
 \usepackage{multicol}
+\usepackage{vwcol}
 \usepackage{titlesec}
 \usepackage{tabularx}
 \usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+
 \usepackage[paper=a4paper,left=10mm,right=10mm,top=20mm,bottom=0mm]{geometry}
 
 \pagestyle{empty}
 
 % fonts
+
 \newfontfamily{\robotolight}{[Roboto-Light.ttf]}
 \newfontfamily{\robotocondlight}{[RobotoCondensed-Light.ttf]}
 \newfontfamily{\robotocond}{[RobotoCondensed-Regular.ttf]}
 \newfontfamily{\worksanslight}{[WorkSans-Light.ttf]}
 \newfontfamily{\worksans}{[WorkSans-Regular.ttf]}
 
+% \renewcommand{\familydefault}{\robotocondlight}
+
 % section headers
 \usepackage{sectsty}
 \sectionfont{\fontsize{13}{15}\worksans}
 \titlespacing{\section}{0pt}{*0}{*0}
+\newcommand{\sechead}[1]{
+    \noindent{\fontsize{13}{15}\worksans #1} \hfill \par
+}
 
+% format the header
 \newcommand{\myHeader}[2]{
     \noindent
     {\fontsize{45}{52}\worksanslight #1} \hfill \par
@@ -31,19 +41,33 @@
     \hspace{15mm}{\fontsize{22}{24}\robotolight #2} \hfill \par
 }
 
-\newcommand{\sechead}[1]{
-    \noindent
-    {\fontsize{13}{15}\worksans #1} \hfill \par
-}
-
+% item for contacts list
 \newcommand{\contactItem}[2]{
     {\fontsize{8}{10}\robotocondlight #1} \includegraphics[width=3mm,scale=0.5]{#2} \par
 }
 
-\newcommand{\courseentry}[1]{
-    \tabitem #1
+% course entry in relevant coursework
+\newcommand{\courseentry}[2]{
+    {\robotocond \tabitem #1:} & #2
 }
 
+% spacefiller for empty course (pass over multiple liners)
+\newcommand{\emptycourse}[0]{
+    & 
+}
+
+% tabularx column that has automatic sizing but left justification
+\newcolumntype{L}[0]{>{\RaggedRight} X}
+
+\newcommand{\projectheader}[3]{
+    \noindent{\fontsize{12}{14}\robotocond #1}{\fontsize{10}{12}\robotocondlight \tabitem #2 \hfill #3}
+}
+
+\newcommand{\expheader}[5]{
+    #1 \tabitem #2 \tabitem #3 \hfill #4 - #5
+}
+
+% horizontal separator
 \newcommand{\hsep}[1][\medskipamount]{\par
     \begin{center}
     \vspace*{\dimexpr-\parskip-\baselineskip+#1}
@@ -52,6 +76,7 @@
     \end{center}
 }
 
+% large horizontal separator
 \newcommand{\bighsep}[1][\medskipamount]{\par
     \begin{center}
     \vspace*{\dimexpr-\parskip-\baselineskip+#1}
@@ -60,4 +85,5 @@
     \end{center}
 }
 
+% make a bullet
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
