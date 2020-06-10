@@ -1,7 +1,6 @@
 % packages
 \usepackage{graphicx}
 \graphicspath{ {img/} }
-
 \usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{vwcol}
@@ -17,14 +16,11 @@
 \pagestyle{empty}
 
 % fonts
-
 \newfontfamily{\robotolight}{[Roboto-Light.ttf]}
 \newfontfamily{\robotocondlight}{[RobotoCondensed-Light.ttf]}
 \newfontfamily{\robotocond}{[RobotoCondensed-Regular.ttf]}
 \newfontfamily{\worksanslight}{[WorkSans-Light.ttf]}
 \newfontfamily{\worksans}{[WorkSans-Regular.ttf]}
-
-% \renewcommand{\familydefault}{\robotocondlight}
 
 % section headers
 \usepackage{sectsty}
@@ -60,10 +56,12 @@
 % tabularx column that has automatic sizing but left justification
 \newcolumntype{L}[0]{>{\RaggedRight} X}
 
+% haeder for projects
 \newcommand{\projectheader}[3]{
     \noindent{\fontsize{11}{13}\robotocond #1}{\fontsize{10}{12}\robotocondlight \tabitem #2 \hfill #3}
 }
 
+% header for experience / jobs
 \newcommand{\expheader}[5]{
     \noindent #1 \tabitem #2 \tabitem #3 \hfill #4 - #5
 }
