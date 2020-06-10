@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.8)  9 JUN 2020 20:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.8)  9 JUN 2020 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,6 +545,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen153
 \titlewidthfirst=\dimen154
 )
+(/usr/share/texlive/texmf-dist/tex/latex/outlines/outlines.sty
+Package: outlines 2012/1/23 1.1 Ch. Pecheur
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
@@ -893,12 +899,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 53.
 
-Overfull \hbox (42.98566pt too wide) in paragraph at lines 10--56
-[][]
+Overfull \hbox (42.98566pt too wide) in paragraph at lines 10--55
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--72
+Underfull \hbox (badness 10000) in paragraph at lines 61--71
 
  []
 
@@ -906,12 +912,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--72
 
 ] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 12718 strings out of 494988
- 279970 string characters out of 6178639
- 360443 words of memory out of 5000000
- 16415 multiletter control sequences out of 15000+600000
- 534259 words of font info for 76 fonts, out of 8000000 for 9000
+ 12804 strings out of 494988
+ 281040 string characters out of 6178639
+ 369448 words of memory out of 5000000
+ 16492 multiletter control sequences out of 15000+600000
+ 534275 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,17n,66p,10432b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,17n,66p,10432b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).

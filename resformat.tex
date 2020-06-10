@@ -6,6 +6,7 @@
 \usepackage{multicol}
 \usepackage{vwcol}
 \usepackage{titlesec}
+\usepackage{outlines}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{multirow}
@@ -60,11 +61,11 @@
 \newcolumntype{L}[0]{>{\RaggedRight} X}
 
 \newcommand{\projectheader}[3]{
-    \noindent{\fontsize{12}{14}\robotocond #1}{\fontsize{10}{12}\robotocondlight \tabitem #2 \hfill #3}
+    \noindent{\fontsize{11}{13}\robotocond #1}{\fontsize{10}{12}\robotocondlight \tabitem #2 \hfill #3}
 }
 
 \newcommand{\expheader}[5]{
-    #1 \tabitem #2 \tabitem #3 \hfill #4 - #5
+    \noindent #1 \tabitem #2 \tabitem #3 \hfill #4 - #5
 }
 
 % horizontal separator
