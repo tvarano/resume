@@ -10,6 +10,7 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{enumitem}
+\usepackage{hyperref}
 
 \usepackage[paper=a4paper,left=10mm,right=10mm,top=20mm,bottom=0mm]{geometry}
 
@@ -27,7 +28,7 @@
 \sectionfont{\fontsize{13}{15}\worksans}
 \titlespacing{\section}{0pt}{*0}{*0}
 \newcommand{\sechead}[1]{
-    \noindent{\fontsize{13}{15}\worksans #1} \hfill \par
+    \noindent{\fontsize{13}{15}\worksans #1} \hfill \par 
 }
 
 % format the header
@@ -39,9 +40,10 @@
 }
 
 % item for contacts list
-\newcommand{\contactItem}[2]{
-    {\fontsize{8}{10}\robotocondlight #1} \includegraphics[width=3mm,scale=0.5]{#2} \par
+\newcommand{\contactItem}[3]{
+    {\fontsize{8}{10}\robotocondlight \href{#2}{#1}} \includegraphics[width=3mm,scale=0.5]{#3} \par
 }
+
 
 % course entry in relevant coursework
 \newcommand{\courseentry}[2]{
