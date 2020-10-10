@@ -32,22 +32,20 @@
 }
 
 % format the header
-\newcommand{\myHeader}[2]{
+\newcommand{\myHeader}[1]{
     \noindent
     {\fontsize{45}{52}\worksanslight #1} \hfill \par
-    \vspace{5mm}
-    \hspace{15mm}{\fontsize{22}{24}\robotolight #2} \hfill \par
 }
 
 % item for contacts list
-\newcommand{\contactItem}[3]{
-    {\fontsize{9}{12}\robotocondlight \href{#2}{#1}} \includegraphics[width=3mm,scale=0.5]{#3} \par
+\newcommand{\contactItem}[2]{
+    {\fontsize{9}{12}\robotocondlight \href{#2}{#1}}
 }
 
 
 % course entry in relevant coursework
-\newcommand{\courseentry}[2]{
-    {\robotocond \tabitem #1:} & #2
+\newcommand{\courseentry}[1]{
+    #1
 }
 
 % spacefiller for empty course (pass over multiple liners)

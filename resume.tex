@@ -2,107 +2,62 @@
 \input{resformat.tex}
 
 \begin{document}
-\myHeader{Thomas Varano}{Computer Science Student}
+\myHeader{Thomas Varano}
+% contact
+\vspace{-3mm}
+\begin{center}
+    \contactItem{thvarano@gmail.com}{mailto:thvarano@gmail.com} |
+    \contactItem{tomvarano.com}{https://tomvarano.com} |
+    \contactItem{(201) 887-3953}{tel:2018873953} |
+    \contactItem{linkedin.com/in/thomas-varano/}{https://linkedin.com/in/thomas-varano} |
+    \contactItem{github.com/tvarano}{https://github.com/tvarano} 
+\end{center}
 \bighsep[1pt]
 
 % top row
-
-\begin{tabular}[t]{r | l | l}
-    \parbox[t][][t]{0.2\textwidth}{
-        % contact
-        \setlength\topsep{0pt}
-        \hspace{-8mm}
-        \sechead{Contact}
-        \begin{flushright}
-            \contactItem{thvarano@gmail.com}{mailto:thvarano@gmail.com}{mail}
-            \contactItem{tomvarano.com}{https://tomvarano.com}{link}
-            \contactItem{(201) 887-3953}{tel:2018873953}{phone}
-            \contactItem{/in/thomas-varano}{https://linkedin.com/in/thomas-varano}{linkedin}
-            \contactItem{github.com/tvarano}{https://github.com/tvarano}{github}
-        \end{flushright}
-    }
-    &
-    \parbox[t][][t]{0.3\textwidth}{
+\begin{tabular}[t]{l | l}
+    \hspace{-8mm}
+    \noindent\parbox[t][][t]{0.3\textwidth}{
         % education
         \setlength\topsep{1pt}
         \sechead{Education}
         {\fontsize{9}{12}\robotocondlight
-        \vspace{1mm}
-        University of Maryland – College Park\par
-        BS / MS Computer Science Program\par
-        Minor in Mathematics\par
-        Graduation: May 2023, BS in 2022\par
-        GPA: 3.95 
+        \begin{itemize}[noitemsep, topsep=0pt, label={}, leftmargin=*]
+            \item University of Maryland – College Park
+            \item BS / MS Computer Science Program
+            \item Minor in Mathematics
+            \item Graduation: May 2023, BS in 2022
+            \item  GPA: 3.95 
+        \end{itemize}
         }
     }
     &
-    \parbox[t][][t]{0.48\textwidth}{
-        % skills
-        \setlength\topsep{0pt}
-        \sechead{Skills}
+    \parbox[t][][t]{0.4\textwidth}{
+        % Relevant Coursework
+        \sechead{Relevant Coursework}
         {\fontsize{9}{12}\robotocondlight
-        \begin{tabular}[t]{r l}
-            Java & C\\
-            JavaScript & Assembly (MIPS)\\
-            Python & BASH / tcsh\\
-            Git & \LaTeX\\
-            HTML / CSS & Windows / MacOS / Linux
-        \end{tabular}
+        \noindent\begin{tabularx}{\textwidth}[t]{l l l}
+            \courseentry{Object Oriented Programming II} & \courseentry{Applications of Linear Algebra}\\
+            \courseentry{Linear Algebra} & \courseentry{Organization of Programming Languages}\\
+            \courseentry{Discrete Structures} & \courseentry{Intro to Computer Systems} \\ \courseentry{Calculus III} & \courseentry{Algorithms}
+        \end{tabularx}
         }
     }
+    
 \end{tabular}
 \hsep[1pt]
 \vspace{-2mm}
 
-% Relevant Coursework
-\sechead{Relevant Coursework}
-\vspace{2mm}
-{\fontsize{9}{12}\robotocondlight
-\noindent\begin{tabularx}{\textwidth}[t]{r L  r L  r L}
-    \courseentry{CMSC 132}{OOP II} & \courseentry{MATH 241}{Calculus III} & \courseentry{MATH 401}{Applications of Linear Algebra}\\
-    \courseentry{MATH 240}{Linear Algebra}
-    & \courseentry{ENES 210}{\multirow[t]{3}{=}{Entrepreneurial Opportunity Analysis and Decision-Making  in Technology Ventures}}
-    & \courseentry{CMSC 330}{\multirow[t]{3}{=}{Organization of Programming Languages}}\\
-    \courseentry{CMSC 250}{Discrete Structures} \\
-    \courseentry{CMSC 216}{Intro to Computer Systems} & \emptycourse & \courseentry{CMSC 351}{Algorithms}
-\end{tabularx}
+% skills
+\setlength\topsep{0pt}
+\sechead{Skills}
+{\fontsize{10}{12}\robotocondlight
+    {\robotocond Programming Languages (Proficient:)} Java, Python, JavaScript \quad {\robotocond (Experience:)} C, Assembly (MIPS), BASH / tcsh, SQLite Ruby\par
+    {\robotocond Technoloies:}
+    Git, \LaTeX, HTML / CSS, Flask, Google Cloud, Heroku, JUnit, VSCode, XCode, Vim, Windows, MacOS, Linux \par
 }
-\vspace{-3mm}
-\hsep
-\vspace{-3mm}
 
-% Projects
-\sechead{Projects}
-\vspace{2mm}
-\projectheader{Ocean Pollution Analyzer}{Competition Project}{2020}
-{\fontsize{10}{12}\robotocondlight
-\begin{itemize}[noitemsep,nolistsep]
-    \item A UMD Data Challenge project analyzing Booz Allen Hamilton data on ocean pollution cleanups. 
-    \item Hosted a {\robotocond Python flask} webapp to illustrate the effectiveness of cleanups and which places were reported to have the most pollution. 
-    \item Created and accessed a {\robotocond SQLite} database to analyze over 45,000 rows of data.
-\end{itemize}
-\projectheader{Portfolio Site}{Personal Project}{2019-2020}
-{\fontsize{10}{12}\robotocondlight
-\begin{itemize}[noitemsep,nolistsep]
-    \item Created and maintained a website holding resume, contact, and bio information.
-    \item Used {\robotocond HTML}, {\robotocond CSS}, {\robotocond jQuery}, and {\robotocond Python} to host on {\robotocond Google Cloud}.
-\end{itemize}
-\projectheader{Career Day}{School Project}{2018-2019}
-\begin{itemize}[noitemsep,nolistsep]
-    \item Sorted 800 students to their preferred Career Day speakers in accordance with their top choices and an assortment of variables.
-    \item Lead a team of 12 student programmers in {\robotocond Java} and {\robotocond Python} using {\robotocond Git} to merge different groups’ code to a final project.
-\end{itemize}
-\projectheader{Agenda}{Personal Project}{2017-2018}
-\begin{itemize}[noitemsep,nolistsep]
-    \item Kept track of rotating schedules, labs, GPA, and time management for high school students. 
-    \item Released an app for OSX, iOS, and web, using {\robotocond Java}, {\robotocond Swift},
-     and {\robotocond HTML}, {\robotocond CSS}, {\robotocond JS}, and {\robotocond Python} respectively
-\end{itemize}
-{\fontsize{8}{10}\robotocondlight Project links: tomvarano.com/about \hfill Github: github.com/tvarano
-}
-\vspace{-5mm}
 \hsep
-\vspace{-3mm}
 
 % Experience
 \sechead{Experience}
@@ -135,10 +90,39 @@
 \vspace{-2mm}
 {\fontsize{8}{10}\robotocondlight References available upon request.}
 }
-\vspace{-5mm}
 \hsep
-\vspace{-3mm}
 
+
+% Projects
+\sechead{Projects}
+\vspace{2mm}
+\projectheader{Ocean Pollution Analyzer}{Competition Project}{2020}
+{\fontsize{10}{12}\robotocondlight
+\begin{itemize}[noitemsep,nolistsep]
+    \item A UMD Data Challenge project analyzing Booz Allen Hamilton data on ocean pollution cleanups. 
+    \item Hosted a {\robotocond Python flask} webapp to illustrate the effectiveness of cleanups and which places were reported to have the most pollution. 
+    \item Created and accessed a {\robotocond SQLite} database to analyze over 45,000 rows of data.
+\end{itemize}
+\projectheader{Portfolio Site}{Personal Project}{2019-2020}
+{\fontsize{10}{12}\robotocondlight
+\begin{itemize}[noitemsep,nolistsep]
+    \item Created and maintained a website holding resume, contact, and bio information.
+    \item Used {\robotocond HTML}, {\robotocond CSS}, {\robotocond jQuery}, and {\robotocond Python} to host on {\robotocond Google Cloud}.
+\end{itemize}
+\projectheader{Career Day}{School Project}{2018-2019}
+\begin{itemize}[noitemsep,nolistsep]
+    \item Sorted 800 students to their preferred Career Day speakers in accordance with their top choices and an assortment of variables.
+    \item Lead a team of 12 student programmers in {\robotocond Java} and {\robotocond Python} using {\robotocond Git} to merge different groups’ code to a final project.
+\end{itemize}
+\projectheader{Agenda}{Personal Project}{2017-2018}
+\begin{itemize}[noitemsep,nolistsep]
+    \item Kept track of rotating schedules, labs, GPA, and time management for high school students. 
+    \item Released an app for OSX, iOS, and web, using {\robotocond Java}, {\robotocond Swift},
+     and {\robotocond HTML}, {\robotocond CSS}, {\robotocond JS}, and {\robotocond Python} respectively
+\end{itemize}
+{\fontsize{8}{10}\robotocondlight Project links: tomvarano.com/about \hfill Github: github.com/tvarano
+}
+\hsep
 % Activities
 \sechead{Activities / Leadership}
 {\fontsize{10}{12}\robotocondlight
@@ -158,5 +142,6 @@ CompuTerps
     \item Computer Science Discussion Club
     \item Discuss popular topics in technology, from both a consumer and developer perspective. 
 \end{itemize}
+Running Club, University Jazz Band, Terrapin Ski Club, UMD Spikeball Club
 }
 \end{document}
