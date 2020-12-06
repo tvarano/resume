@@ -17,11 +17,18 @@
 \pagestyle{empty}
 
 % fonts
-\newfontfamily{\robotolight}{[Roboto-Light.ttf]}
-\newfontfamily{\robotocondlight}{[RobotoCondensed-Light.ttf]}
-\newfontfamily{\robotocond}{[RobotoCondensed-Regular.ttf]}
-\newfontfamily{\worksanslight}{[WorkSans-Light.ttf]}
-\newfontfamily{\worksans}{[WorkSans-Regular.ttf]}
+% \newfontfamily{\robotolight}{[./fonts/Roboto-Light.ttf]}
+% \newfontfamily{\robotocondlight}{[./fonts/RobotoCondensed-Light.ttf]}
+% \newfontfamily{\robotocond}{[./fonts/RobotoCondensed-Regular.ttf]}
+% \newfontfamily{\worksanslight}{[./fonts/WorkSans-Light.ttf]}
+% \newfontfamily{\worksans}{[./fonts/WorkSans-Regular.ttf]}
+
+
+\newfontfamily {\robotolight} [Path = ./fonts/] {Roboto-Light.ttf}
+\newfontfamily {\robotocondlight} [Path = fonts/] {RobotoCondensed-Light.ttf}
+\newfontfamily {\robotocond} [Path = fonts/] {RobotoCondensed-Regular.ttf}
+\newfontfamily {\worksanslight} [Path = fonts/] {WorkSans-Light.ttf}
+\newfontfamily {\worksans} [Path = fonts/] {WorkSans-Regular.ttf}
 
 % section headers
 \usepackage{sectsty}

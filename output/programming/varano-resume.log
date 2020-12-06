@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.11.19)  27 NOV 2020 15:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.12.5)  6 DEC 2020 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**campres.tex
-(./campres.tex
+**varano-resume.tex
+(./varano-resume.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -451,161 +451,76 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks20
 )
 
-Package fontspec Info: Font family '[Roboto-Light.ttf](0)' created for font
-(fontspec)             '[Roboto-Light.ttf]' with options [].
+Package fontspec Info: Font family 'Roboto-Light.ttf(0)' created for font
+(fontspec)             'Roboto-Light.ttf' with options [Path = ./fonts/].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light].ttf/OT:script=latn;language=dflt;"
+(fontspec)             <->"[./fonts/Roboto-Light.ttf]/OT:script=latn;language=d
+flt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light].ttf/OT:script=latn;language=dflt;+smc
-p;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light]/B.ttf/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light]/B.ttf/OT:script=latn;language=dflt;+s
-mcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light]/I.ttf/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light]/I.ttf/OT:script=latn;language=dflt;+s
-mcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light]/BI.ttf/OT:script=latn;language=dflt;"
-
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[Roboto-Light]/BI.ttf/OT:script=latn;language=dflt;+
-smcp;"
+(fontspec)             <->"[./fonts/Roboto-Light.ttf]/OT:script=latn;language=d
+flt;+smcp;"
 
 
-Package fontspec Info: Font family '[RobotoCondensed-Light.ttf](0)' created
-(fontspec)             for font '[RobotoCondensed-Light.ttf]' with options [].
+Package fontspec Info: Font family 'RobotoCondensed-Light.ttf(0)' created for
+(fontspec)             font 'RobotoCondensed-Light.ttf' with options [Path =
+(fontspec)             fonts/].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light].ttf/OT:script=latn;language=
-dflt;"
+(fontspec)             <->"[fonts/RobotoCondensed-Light.ttf]/OT:script=latn;lan
+guage=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light].ttf/OT:script=latn;language=
-dflt;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light]/B.ttf/OT:script=latn;languag
-e=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light]/B.ttf/OT:script=latn;languag
-e=dflt;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light]/I.ttf/OT:script=latn;languag
-e=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light]/I.ttf/OT:script=latn;languag
-e=dflt;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light]/BI.ttf/OT:script=latn;langua
-ge=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Light]/BI.ttf/OT:script=latn;langua
-ge=dflt;+smcp;"
+(fontspec)             <->"[fonts/RobotoCondensed-Light.ttf]/OT:script=latn;lan
+guage=dflt;+smcp;"
 
 
-Package fontspec Info: Font family '[RobotoCondensed-Regular.ttf](0)' created
-(fontspec)             for font '[RobotoCondensed-Regular.ttf]' with options
-(fontspec)             [].
+Package fontspec Info: Font family 'RobotoCondensed-Regular.ttf(0)' created
+(fontspec)             for font 'RobotoCondensed-Regular.ttf' with options
+(fontspec)             [Path = fonts/].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular].ttf/OT:script=latn;languag
-e=dflt;"
+(fontspec)             <->"[fonts/RobotoCondensed-Regular.ttf]/OT:script=latn;l
+anguage=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular].ttf/OT:script=latn;languag
-e=dflt;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular]/B.ttf/OT:script=latn;langu
-age=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular]/B.ttf/OT:script=latn;langu
-age=dflt;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular]/I.ttf/OT:script=latn;langu
-age=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular]/I.ttf/OT:script=latn;langu
-age=dflt;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular]/BI.ttf/OT:script=latn;lang
-uage=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[RobotoCondensed-Regular]/BI.ttf/OT:script=latn;lang
-uage=dflt;+smcp;"
+(fontspec)             <->"[fonts/RobotoCondensed-Regular.ttf]/OT:script=latn;l
+anguage=dflt;+smcp;"
 
 
-Package fontspec Info: Font family '[WorkSans-Light.ttf](0)' created for font
-(fontspec)             '[WorkSans-Light.ttf]' with options [].
+Package fontspec Info: Font family 'WorkSans-Light.ttf(0)' created for font
+(fontspec)             'WorkSans-Light.ttf' with options [Path = fonts/].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light].ttf/OT:script=latn;language=dflt;"
+(fontspec)             <->"[fonts/WorkSans-Light.ttf]/OT:script=latn;language=d
+flt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light].ttf/OT:script=latn;language=dflt;+s
-mcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light]/B.ttf/OT:script=latn;language=dflt;
-"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light]/B.ttf/OT:script=latn;language=dflt;
-+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light]/I.ttf/OT:script=latn;language=dflt;
-"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light]/I.ttf/OT:script=latn;language=dflt;
-+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light]/BI.ttf/OT:script=latn;language=dflt
-;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Light]/BI.ttf/OT:script=latn;language=dflt
-;+smcp;"
+(fontspec)             <->"[fonts/WorkSans-Light.ttf]/OT:script=latn;language=d
+flt;+smcp;"
 
 
-Package fontspec Info: Font family '[WorkSans-Regular.ttf](0)' created for
-(fontspec)             font '[WorkSans-Regular.ttf]' with options [].
+Package fontspec Info: Font family 'WorkSans-Regular.ttf(0)' created for font
+(fontspec)             'WorkSans-Regular.ttf' with options [Path = fonts/].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular].ttf/OT:script=latn;language=dflt;
-"
+(fontspec)             <->"[fonts/WorkSans-Regular.ttf]/OT:script=latn;language
+=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular].ttf/OT:script=latn;language=dflt;
-+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular]/B.ttf/OT:script=latn;language=dfl
-t;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular]/B.ttf/OT:script=latn;language=dfl
-t;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular]/I.ttf/OT:script=latn;language=dfl
-t;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular]/I.ttf/OT:script=latn;language=dfl
-t;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular]/BI.ttf/OT:script=latn;language=df
-lt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[WorkSans-Regular]/BI.ttf/OT:script=latn;language=df
-lt;+smcp;"
+(fontspec)             <->"[fonts/WorkSans-Regular.ttf]/OT:script=latn;language
+=dflt;+smcp;"
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
@@ -620,8 +535,8 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-)) (./campres.aux)
-\openout1 = `campres.aux'.
+)) (./output/programming/varano-resume.aux)
+\openout1 = `varano-resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -634,7 +549,8 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
@@ -726,9 +642,10 @@ LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
 
-(./campres.out) (./campres.out)
+(./output/programming/varano-resume.out)
+(./output/programming/varano-resume.out)
 \@outlinefile=\write3
-\openout3 = `campres.out'.
+\openout3 = `varano-resume.out'.
 
 
 *geometry* driver: auto-detecting
@@ -786,7 +703,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
@@ -794,21 +713,26 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
- (./campres.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
-Package rerunfilecheck Info: File `campres.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
- ) 
-Here is how much of TeX's memory you used:
- 12886 strings out of 481804
- 249746 string characters out of 5937875
- 557686 words of memory out of 5000000
- 29628 multiletter control sequences out of 15000+600000
- 536845 words of font info for 99 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 46i,15n,80p,272b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+ (./output/programming/varano-resume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package rerunfilecheck Info: File `varano-resume.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
+ )
+(\end occurred inside a group at level 2)
 
-Output written on campres.pdf (1 page).
+### simple group (level 2) entered at line 107 ({)
+### simple group (level 1) entered at line 100 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 12761 strings out of 481804
+ 244543 string characters out of 5937876
+ 558997 words of memory out of 5000000
+ 29553 multiletter control sequences out of 15000+600000
+ 536597 words of font info for 68 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 46i,15n,80p,278b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on ./output/programming/varano-resume.pdf (1 page).
