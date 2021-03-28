@@ -11,5 +11,8 @@ case $1 in
     "starbres.tex") 
         xelatex -output-directory=./output/starbucks $1
         ;;
+    "skill-based.tex") 
+        xelatex -output-directory=./output/skill-based $1
+        ;;
 
 esac
