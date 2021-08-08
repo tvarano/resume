@@ -24,10 +24,10 @@
         {\fontsize{9}{12}\robotocondlight
         \begin{itemize}[noitemsep, topsep=0pt, label={}, leftmargin=*]
             \item University of Maryland – College Park
-            \item BS / MS Computer Science Program
+            \item BS Computer Science
             \item Minor in Mathematics
-            \item Graduation: May 2023, BS in 2022
-            \item  GPA: 3.95 
+            \item Graduation: May 2022
+            \item GPA: 3.95 
         \end{itemize}
         }
     }
@@ -54,9 +54,9 @@
 \setlength\topsep{0pt}
 \sechead{Skills}
 {\fontsize{10}{12}\robotocondlight
-    \noindent{\robotocond Programming Languages (Proficient:)} Java, Python, C, JavaScript \quad {\robotocond (Experience:)} Assembly (MIPS), BASH, SQLite, Ruby, OCaml, Rust, Swift\par
+    \noindent{\robotocond Programming Languages (Proficient:)} Python, Swift, Java \quad {\robotocond (Experience:)} JavaScript, BASH, C, SQLite, OCaml, Ruby, , Assembly (MIPS), Rust \par
     \noindent{\robotocond Technologies:}
-    Git, \LaTeX, HTML / CSS, Flask, Google Cloud, Heroku, JUnit, VSCode, XCode, Vim, Windows, MacOS, Linux \par
+    Git, XCTest, \LaTeX, HTML / CSS, Flask, Google Cloud, Heroku, JUnit, Jupyter, VSCode, Vim, Windows, MacOS, Linux \par
 }
 
 \hsep
@@ -65,10 +65,20 @@
 \sechead{Experience}
 \vspace{2mm}
 {\fontsize{10}{12}\robotocondlight
+% Apple
+    \expheader{Software Engineering Intern}{Apple}{May 2021}{August 2021}
+    \begin{itemize}[noitemsep,nolistsep]
+        \item Validate syncing capabilities of the Shortcuts app on iOS and macOS. 
+        \item Quickly comprehend and navigate expansive codebase, developing new tests and improving structure they are built on. 
+        \item Develop MultiDevice testing approach to sync multiple devices in a test run, using Swift to run custom Test Plans.
+        \item Triage test results, report specific failures to Shortcuts developers to improve product to ship.
+    \end{itemize}
+    \vspace{3mm}
 % TA
     \expheader{Teaching Assistant}{University of Maryland}{August 2020}{Present}
     \begin{itemize}[noitemsep,nolistsep]
-        \item Act as office hours and grading teaching assistant for CMSC 132 (Object Oriented Programming II).
+        \item Teach student-let course CMSC 389O, The Coding Interview. Teach students techniques for behavioral and technical interviews. 
+        \item Act as office hours and grading teaching assistant for CMSC 132, Object Oriented Programming II.
         \item Hold virtual office hours for students, teaching data structures in Java and helping students debug projects.
     \end{itemize}
     \vspace{3mm}
@@ -82,12 +92,12 @@
     \end{itemize}
     \vspace{3mm}
 % PHHS
-    \expheader{Teaching Assistant}{Pascack Hills High School}{Sept 2018}{June 2019}
-    \begin{itemize}[noitemsep,nolistsep]
-        \item Taught students fundamental programming techniques, focusing on Java. Helped debug and analyze students’ projects. 
-        \item Co-found Advanced Topics in Computer Science class, with curriculum involving Python, webdev, Swift, and Arduino. 
-    \end{itemize}
-    \vspace{3mm}
+    % \expheader{Teaching Assistant}{Pascack Hills High School}{Sept 2018}{June 2019}
+    % \begin{itemize}[noitemsep,nolistsep]
+    %     \item Taught students fundamental programming techniques, focusing on Java. Helped debug and analyze students’ projects. 
+    %     \item Co-found Advanced Topics in Computer Science class, with curriculum involving Python, webdev, Swift, and Arduino. 
+    % \end{itemize}
+    % \vspace{3mm}
 
 \vspace{-2mm}
 {\fontsize{8}{10}\robotocondlight References available upon request.}
@@ -98,31 +108,33 @@
 % Projects
 \sechead{Projects}
 \vspace{2mm}
-\projectheader{Ocean Pollution Analyzer}{Competition Project}{2020}
+\projectheader{MultiDevice Testing}{Intern Project}{2021}
 {\fontsize{10}{12}\robotocondlight
+\begin{itemize}[noitemsep,nolistsep]
+    \item Intern project to improve Multi Device testing at Apple. 
+    \item Created a suite of tests in {\robotocond Swift} using {\robotocond XCodeUI Tests} for the Shortcuts app, programmatically verifying the app's syncing feature.
+    \item Run newly created tests in CI environment for Presubmission testing.
+    \item Created a new approach for Multi Device testing, generalized to be used on multiple platforms for multiple different Apple products. 
+    \item Thoroughly document project for ease of use across teams and software implementations.
+\end{itemize}
+\projectheader{Ocean Pollution Analyzer}{Competition Project}{2020}
 \begin{itemize}[noitemsep,nolistsep]
     \item A UMD Data Challenge project analyzing Booz Allen Hamilton data on ocean pollution cleanups. 
     \item Hosted a {\robotocond Python flask} webapp to illustrate the effectiveness of cleanups and which places were reported to have the most pollution. 
     \item Created and accessed a {\robotocond SQLite} database to analyze over 45,000 rows of data.
 \end{itemize}
 \projectheader{Portfolio Site}{Personal Project}{2019-2020}
-{\fontsize{10}{12}\robotocondlight
 \begin{itemize}[noitemsep,nolistsep]
     \item Created and maintained a website holding resume, contact, and bio information.
     \item Used {\robotocond HTML}, {\robotocond CSS}, {\robotocond jQuery}, and {\robotocond Python} to host on {\robotocond Google Cloud}.
 \end{itemize}
-\projectheader{Career Day}{School Project}{2018-2019}
-\begin{itemize}[noitemsep,nolistsep]
-    \item Sorted 800 students to their preferred Career Day speakers in accordance with their top choices and an assortment of variables.
-    \item Lead a team of 12 student programmers in {\robotocond Java} and {\robotocond Python} using {\robotocond Git} to merge different groups’ code to a final project.
-    \item Acted as Project Manager, assigning tickets, bugs, and features, while also working on the project firsthand.
-\end{itemize}
-\projectheader{Agenda}{Personal Project}{2017-2018}
-\begin{itemize}[noitemsep,nolistsep]
-    \item Kept track of rotating schedules, labs, GPA, and time management for high school students. 
-    \item Released an app for OSX, iOS, and web, using {\robotocond Java}, {\robotocond Swift},
-     and {\robotocond HTML}, {\robotocond CSS}, {\robotocond JS}, and {\robotocond Python} respectively
-\end{itemize}
+% \projectheader{Career Day}{School Project}{2018-2019}
+% \begin{itemize}[noitemsep,nolistsep]
+%     \item Sorted 800 students to their preferred Career Day speakers in accordance with their top choices and an assortment of variables.
+%     \item Lead a team of 12 student programmers in {\robotocond Java} and {\robotocond Python} using {\robotocond Git} to merge different groups’ code to a final project.
+%     \item Acted as Project Manager, assigning tickets, bugs, and features, while also working on the project firsthand.
+% \end{itemize}
+}
 {\fontsize{8}{10}\robotocondlight Project links: tomvarano.com/about \hfill Github: github.com/tvarano
 }
 \hsep
@@ -133,19 +145,12 @@
 \begin{itemize}[noitemsep,nolistsep]
     \item Computer Science club specializing in open source cooperation and contribution. Weekly meetings either involve workshops on varying 
     technologies or breakoffs where different groups within the club discuss and work on their own team projects. 
-    \item Acting Personal Relations Officer, fielding member questions, running social media, sending announcements, 
-    and spearheading outreach for new members.
 \end{itemize}
 Sigma Phi Delta
 \begin{itemize}[noitemsep,nolistsep]
     \item Engineering Fraternity
     \item Risk Manager: Mitigize Covid risk and ensure all events adhere to Covid guidelines. 
     \item Engage and Network with other Engineers / Computer Science Majors.
-\end{itemize}
-CompuTerps
-\begin{itemize}[noitemsep,nolistsep]
-    \item Computer Science Discussion Club
-    \item Discuss popular topics in technology, from both a consumer and developer perspective. 
 \end{itemize}
 Running Club, University Jazz Band, Terrapin Ski Club, UMD Spikeball Club
 }
