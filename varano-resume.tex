@@ -15,18 +15,18 @@
 \bighsep[1pt]
 
 % top row
-\begin{tabular}[t]{l | l}
-    \hspace{-8mm}
+\begin{tabular}[t]{l l}
+    \hspace{-9mm}
     \noindent\parbox[t][][t]{0.3\textwidth}{
         % education
         \setlength\topsep{1pt}
         \sechead{Education}
         {\fontsize{9}{12}\robotocondlight
-        \begin{itemize}[noitemsep, topsep=0pt, label={}, leftmargin=*]
+        \begin{itemize}[noitemsep, topsep=0pt, label={}, leftmargin=15pt]
             \item University of Maryland – College Park
             \item BS Computer Science
             \item Minor in Mathematics
-            \item Graduation: May 2022
+            \item Aug 2019 - May 2022
             \item GPA: 3.95 
         \end{itemize}
         }
@@ -34,9 +34,11 @@
     &
     \parbox[t][][t]{0.4\textwidth}{
         % Relevant Coursework
+        \hspace{-10mm}
         \sechead{Relevant Coursework}
         {\fontsize{9}{12}\robotocondlight
-        \noindent\begin{tabularx}{\textwidth}[t]{l l l}
+        \hspace{-5mm}
+        \begin{tabularx}{\textwidth}[t]{l l l}
             % Linear Algebra Discrete Structures
             \courseentry{Object Oriented Programming II} & \courseentry{Linear Algebra} & \courseentry{Intro to Computer Systems} \\
             \courseentry{Discrete Structures} & \courseentry{Calculus III} & \courseentry{Organization of Programming Languages} \\
@@ -48,27 +50,26 @@
     }
     
 \end{tabular}
-\hsep[1pt]
-\vspace{-2mm}
+\vspace{3mm}
 
 % skills
 \setlength\topsep{0pt}
 \sechead{Skills}
 {\fontsize{10}{12}\robotocondlight
-    \noindent{\robotocond Programming Languages (Proficient:)} Python, Swift, Java \quad {\robotocond (Experience:)} JavaScript, BASH, C, SQLite, OCaml, Ruby, , Assembly (MIPS), Rust \par
-    \noindent{\robotocond Technologies:}
+    {\robotocond Programming Languages (Proficient:)} Python, Swift, Java \par
+    {\robotocond (Experience:)} JavaScript, BASH, C, SQLite, OCaml, Ruby, Assembly (MIPS), Rust \par
+    {\robotocond Technologies:}
     Git, XCTest, \LaTeX, HTML / CSS, Flask, Google Cloud, Heroku, JUnit, Jupyter, VSCode, Vim, Windows, MacOS, Linux \par
 }
 
-\hsep
-
 % Experience
+\vspace{5mm}
 \sechead{Experience}
 \vspace{2mm}
 {\fontsize{10}{12}\robotocondlight
 % Apple
     \expheader{Software Engineering Intern}{Apple}{May 2021}{August 2021}
-    \begin{itemize}[noitemsep,nolistsep]
+    \begin{itemize}[noitemsep,nolistsep,leftmargin=30pt]
         \item Validate syncing capabilities of the Shortcuts app on iOS and macOS. 
         \item Quickly comprehend and navigate expansive codebase, developing new tests and improving structure they are built on. 
         \item Develop MultiDevice testing approach to sync multiple devices in a test run, using Swift to run custom Test Plans.
@@ -76,8 +77,8 @@
     \end{itemize}
     \vspace{3mm}
 % TA
-    \expheader{Teaching Assistant}{University of Maryland}{August 2020}{Present}
-    \begin{itemize}[noitemsep,nolistsep]
+    \hspace{15pt}\expheader{Teaching Assistant}{University of Maryland}{August 2020}{Present}
+    \begin{itemize}[noitemsep,nolistsep,leftmargin=30pt]
         \item Teach student-let course CMSC 389O, The Coding Interview. Teach students techniques for behavioral and technical interviews. 
         \item Act as office hours and grading teaching assistant for CMSC 132, Object Oriented Programming II.
         \item Hold virtual office hours for students, teaching data structures in Java and helping students debug projects.
@@ -86,7 +87,7 @@
 
 % Fidelity
     \expheader{IT Intern}{Fidelity National Financial}{July 2020}{August 2020}
-    \begin{itemize}[noitemsep,nolistsep]
+    \begin{itemize}[noitemsep,nolistsep,leftmargin=30pt]
         \item Imaged devices, set up workstations, configured print servers. 
         \item Troubleshot various server and user issues either in person or over remote connection.
         \item Learned intricacies of numerous software programs regarding installation, troubleshooting, and repair, maintaining the effectiveness of coworkers. 
@@ -100,32 +101,28 @@
     % \end{itemize}
     % \vspace{3mm}
 
-\vspace{-2mm}
-{\fontsize{8}{10}\robotocondlight References available upon request.}
-}
-\hsep
-
 
 % Projects
+\vspace{2mm}
 \sechead{Projects}
 \vspace{2mm}
 \projectheader{MultiDevice Testing}{Intern Project}{2021}
 {\fontsize{10}{12}\robotocondlight
-\begin{itemize}[noitemsep,nolistsep]
+\begin{itemize}[noitemsep,nolistsep,leftmargin=30pt]
     \item Intern project to improve Multi Device testing at Apple. 
     \item Create a new approach for Multi Device testing, generalized to be used on multiple platforms for multiple different Apple products. 
     \item Create a suite of tests in {\robotocond Swift} using {\robotocond XCodeUI Tests} for the Shortcuts app, programmatically verifying the app's syncing feature.
     \item Run newly created tests in CI environment for Presubmission testing.
     \item Thoroughly document project for ease of use across teams and software implementations.
 \end{itemize}
-\projectheader{Top Hits Analyzer}{School Project}{2021}
-\begin{itemize}[noitemsep,nolistsep]
+\hspace{15pt}\projectheader{Top Hits Analyzer}{School Project}{2021}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=30pt]
     \item A Data Science project analyzing and categorizing trends of Billboard top hits. 
     \item Clean and parse over 325k entries of songs on the BillBoard Hot 100 using {\robotocond pandas} and {\robotocond numpy}.
     Create K-Means model using {\robotocond scikitlearn} and place songs into categories depending on how they trended on the chart. 
 \end{itemize}
-\projectheader{Offset}{Competition Project}{2021}
-\begin{itemize}[noitemsep,nolistsep]
+\hspace{15pt}\projectheader{Offset}{Competition Project}{2021}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=30pt]
     \item A Bitcamp hackathon project analyzing the carbon footprint of consumer deliveries and online shopping. 
     \item Parse package tracking numbers from user's Gmail using {\robotocond Python} API. 
     \item Reverse engineer APIs to gather information about packages and their exact carbon impacts. 
@@ -149,10 +146,10 @@
 %     \item Acted as Project Manager, assigning tickets, bugs, and features, while also working on the project firsthand.
 % \end{itemize}
 }
-{\fontsize{8}{10}\robotocondlight Project links: tomvarano.com/about \hfill Github: github.com/tvarano
-}
-\hsep
+{\fontsize{8}{10}\robotocondlight Project links: tomvarano.com/about \hfill Github: github.com/tvarano}
+
 % Activities
+\vspace{5mm}
 \sechead{Activities / Leadership}
 {\fontsize{10}{12}\robotocondlight
 \noindent Open Sourcery
