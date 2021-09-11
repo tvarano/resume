@@ -2,7 +2,7 @@
 
 case $1 in
 
-    "varano-resume.tex") 
+    "thomas-varano-resume.tex") 
         xelatex -output-directory=./output/programming $1
         ;;
     "campres.tex") 
