@@ -26,8 +26,8 @@
             \item University of Maryland – College Park
             \item BS Computer Science
             \item Minor in Mathematics
-            \item Graduation: May 2022
-            \item GPA: 3.95 
+            \item Graduation: Cum Laude May 2022
+            \item GPA: 3.91
         \end{itemize}
         }
     }
@@ -37,12 +37,12 @@
         \sechead{Relevant Coursework}
         {\fontsize{9}{12}\robotocondlight
         \noindent\begin{tabularx}{\textwidth}[t]{l l l}
-            % Linear Algebra Discrete Structures
-            \courseentry{Object Oriented Programming II} & \courseentry{Linear Algebra} & \courseentry{Intro to Computer Systems} \\
+            % \courseentry{Object Oriented Programming II} & \courseentry{Linear Algebra} & \courseentry{Intro to Computer Systems} \\
             \courseentry{Discrete Structures} & \courseentry{Calculus III} & \courseentry{Organization of Programming Languages} \\
             \courseentry{Applications of Linear Algebra} & \courseentry{Algorithms} & \courseentry{Advanced Data Structures} \\
             \courseentry{Applied Probability and Statistics} & \courseentry{Intro to Data Science} & \courseentry{Analysis of Computer Algorithms} \\
-            \courseentry{Intro to Machine Learning} & \courseentry{Computer Networks} & \courseentry{Advanced Calculus I}
+            \courseentry{Intro to Machine Learning} & \courseentry{Computer Networks} & \courseentry{Advanced Calculus I} \\
+            \courseentry{Programming Languages and Paradigms} & \courseentry{Computer Vision} & \courseentry{Number Theory}
         \end{tabularx}
         }
     }
@@ -55,9 +55,9 @@
 \setlength\topsep{0pt}
 \sechead{Skills}
 {\fontsize{10}{12}\robotocondlight
-    \noindent{\robotocond Programming Languages (Proficient:)} Python, Swift, Java \quad {\robotocond (Experience:)} JavaScript, BASH, C, SQLite, OCaml, Ruby, Assembly (MIPS), Rust \par
+    \noindent{\robotocond Programming Languages (Proficient:)} Python, Swift, Java \quad {\robotocond (Experience:)} C, Rust, OCaml, JavaScript, BASH, SQLite, Ruby, Assembly (MIPS)\par
     \noindent{\robotocond Technologies:}
-    Git, XCTest, \LaTeX, HTML / CSS, Flask, Google Cloud, Heroku, JUnit, Jupyter, VSCode, Vim, Windows, MacOS, Linux \par
+    Git, XCTest, \LaTeX, HTML / CSS, Flask, Google Cloud, JUnit, Jupyter, Windows, MacOS, Linux \par
 }
 
 \hsep
@@ -69,36 +69,29 @@
 % Apple
     \expheader{Software Engineering Intern}{Apple}{May 2021}{August 2021}
     \begin{itemize}[noitemsep,nolistsep]
-        \item Validate syncing capabilities of the Shortcuts app on iOS and macOS. 
-        \item Quickly comprehend and navigate expansive codebase, developing new tests and improving structure they are built on. 
-        \item Develop MultiDevice testing approach to sync multiple devices in a test run, using Swift to run custom Test Plans.
-        \item Triage test results, report specific failures to Shortcuts developers to improve product to ship.
+        \item Validated syncing capabilities of the Shortcuts app on iOS and macOS. 
+        \item Quickly comprehended and navigated expansive codebase, developing new tests and improving structure they are built on. 
+        \item Developed MultiDevice testing approach to sync multiple devices in a test run, using Swift to run custom Test Plans.
+        \item Triaged test results, report specific failures to Shortcuts developers to improve product to ship.
     \end{itemize}
     \vspace{3mm}
 % TA
-    \expheader{Teaching Assistant}{University of Maryland}{August 2020}{Present}
+    \expheader{Teaching Assistant}{University of Maryland}{August 2020}{May 2022}
     \begin{itemize}[noitemsep,nolistsep]
-        \item Teach student-let course CMSC 389O, The Coding Interview. Teach students techniques for behavioral and technical interviews. 
-        \item Act as office hours and grading teaching assistant for CMSC 132, Object Oriented Programming II.
-        \item Hold virtual office hours for students, teaching data structures in Java and helping students debug projects.
+        \item Taught student-let course CMSC 389O, The Coding Interview. Teach students techniques for behavioral and technical interviews. 
+        \item Acted as office hours and grading teaching assistant for CMSC 132, Object Oriented Programming II.
+        \item Held virtual office hours for students, teaching data structures in Java and helping students debug projects.
     \end{itemize}
     \vspace{3mm}
 
 % Fidelity
     \expheader{IT Intern}{Fidelity National Financial}{July 2020}{August 2020}
     \begin{itemize}[noitemsep,nolistsep]
-        \item Image devices, set up workstations, configure print servers. 
-        \item Troubleshoot various server and user issues either in person or over remote connection.
-        \item Learn intricacies of numerous software programs regarding installation, troubleshooting, and repair, maintaining the effectiveness of coworkers. 
+        \item Imaged devices, set up workstations, configure print servers. 
+        \item Troubleshot various server and user issues either in person or over remote connection.
+        \item Learned intricacies of numerous software programs regarding installation, troubleshooting, and repair, maintaining the effectiveness of coworkers. 
     \end{itemize}
     \vspace{3mm}
-% PHHS
-    % \expheader{Teaching Assistant}{Pascack Hills High School}{Sept 2018}{June 2019}
-    % \begin{itemize}[noitemsep,nolistsep]
-    %     \item Taught students fundamental programming techniques, focusing on Java. Helped debug and analyze students’ projects. 
-    %     \item Co-found Advanced Topics in Computer Science class, with curriculum involving Python, webdev, Swift, and Arduino. 
-    % \end{itemize}
-    % \vspace{3mm}
 
 \vspace{-2mm}
 % {\fontsize{8}{10}\robotocondlight References available upon request.}
@@ -109,45 +102,28 @@
 % Projects
 \sechead{Projects}
 \vspace{2mm}
+\projectheader{Downpou-rs}{School Project}{2021}
+\begin{itemize}[noitemsep,nolistsep]
+    \item A Bittorrent client built from scratch in {\robotocond Rust}.
+    \item Comprehended and utilized protocol specifcations to manually send requests to peers and trackers.
+    \item Client able to communicate with HTTP trackers and download / seed with optimistic unchoking and peer ranking.
+\end{itemize}
 \projectheader{MultiDevice Testing}{Intern Project}{2021}
-{\fontsize{10}{12}\robotocondlight
 \begin{itemize}[noitemsep,nolistsep]
     \item Intern project to improve Multi Device testing at Apple. 
-    \item Create a new approach for Multi Device testing, generalized to be used on multiple platforms for multiple different Apple products. 
-    \item Create a suite of tests in {\robotocond Swift} using {\robotocond XCodeUI Tests} for the Shortcuts app, programmatically verifying the app's syncing feature.
-    \item Run newly created tests in CI environment for Presubmission testing.
-    \item Thoroughly document project for ease of use across teams and software implementations.
+    \item Created a new approach for Multi Device testing, generalized to be used on multiple platforms for multiple different Apple products. 
+    \item Created a suite of tests in {\robotocond Swift} using {\robotocond XCodeUI Tests} for the Shortcuts app, programmatically verifying the app's syncing feature.
+    \item Ran newly created tests in CI environment for Presubmission testing.
+    \item Thoroughly documented project for ease of use across teams and software implementations.
 \end{itemize}
-\projectheader{Top Hits Analyzer}{School Project}{2021}
-\begin{itemize}[noitemsep,nolistsep]
-    \item A Data Science project analyzing and categorizing trends of Billboard top hits. 
-    \item Clean and parse over 325k entries of songs on the BillBoard Hot 100 using {\robotocond pandas} and {\robotocond numpy}.
-    Create K-Means model using {\robotocond scikitlearn} and place songs into categories depending on how they trended on the chart. 
-\end{itemize}
+
 \projectheader{Offset}{Competition Project}{2021}
 \begin{itemize}[noitemsep,nolistsep]
     \item A Bitcamp hackathon project analyzing the carbon footprint of consumer deliveries and online shopping. 
-    \item Parse package tracking numbers from user's Gmail using {\robotocond Python} API. 
-    \item Reverse engineer APIs to gather information about packages and their exact carbon impacts. 
-    \item Use {\robotocond Python Flask} to host a website querying all endpoints and displaying information to user.
+    \item Parsed package tracking numbers from user's Gmail using {\robotocond Python} API. 
+    \item Reverse engineered APIs to gather information about packages and their exact carbon impacts. 
+    \item Used {\robotocond Python Flask} to host a website querying all endpoints and displaying information to user.
 \end{itemize}
-% \projectheader{Ocean Pollution Analyzer}{Competition Project}{2020}
-% \begin{itemize}[noitemsep,nolistsep]
-%     \item A UMD Data Challenge project analyzing Booz Allen Hamilton data on ocean pollution cleanups. 
-%     \item Hosted a {\robotocond Python flask} webapp to illustrate the effectiveness of cleanups and which places were reported to have the most pollution. 
-%     \item Created and accessed a {\robotocond SQLite} database to analyze over 45,000 rows of data.
-% \end{itemize}
-% \projectheader{Portfolio Site}{Personal Project}{2019-2020}
-% \begin{itemize}[noitemsep,nolistsep]
-%     \item Created and maintained a website holding resume, contact, and bio information.
-%     \item Used {\robotocond HTML}, {\robotocond CSS}, {\robotocond jQuery}, and {\robotocond Python} to host on {\robotocond Google Cloud}.
-% \end{itemize}
-% \projectheader{Career Day}{School Project}{2018-2019}
-% \begin{itemize}[noitemsep,nolistsep]
-%     \item Sorted 800 students to their preferred Career Day speakers in accordance with their top choices and an assortment of variables.
-%     \item Lead a team of 12 student programmers in {\robotocond Java} and {\robotocond Python} using {\robotocond Git} to merge different groups’ code to a final project.
-%     \item Acted as Project Manager, assigning tickets, bugs, and features, while also working on the project firsthand.
-% \end{itemize}
 }
 {\fontsize{8}{10}\robotocondlight Project links: tomvarano.com/about \hfill Github: github.com/tvarano
 }
@@ -163,10 +139,9 @@
 Sigma Phi Delta
 \begin{itemize}[noitemsep,nolistsep]
     \item Engineering Fraternity
+    \item Webmaster: Maintain website, approve pull requests changes from other chairs for their respective pages.
     \item Assistant Treasurer: Delegate spending, budget income across projects and events.
     \item Risk Manager: Minimize Covid risk and ensure all events adhere to Covid guidelines. 
-    % \item Engage and Network with other Engineers / Computer Science Majors.
 \end{itemize}
 Running Club, University Jazz Band, Terrapin Ski Club, UMD Spikeball Club
-}
 \end{document}
